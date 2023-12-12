@@ -323,9 +323,6 @@ F1_store2 = []
 pair_quality2 = []
 pair_completeness2 = []
 
-
-S1 = create_SignatureMatrix(I1, 1000)
-
 for i in [500, 250, 200, 125, 100, 50, 25, 20, 10, 5, 4, 2]:
     check1 = return_combinations(S1, i, 16000, Product_List)
     result1 = performance(check1, Product_List)
